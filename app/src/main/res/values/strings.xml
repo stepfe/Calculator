@@ -1,0 +1,49 @@
+<!DOCTYPE resources [
+    <!ELEMENT resources (string)*>
+    <!ELEMENT string (#PCDATA)>
+    <!ATTLIST string
+        name CDATA #REQUIRED>
+    ]>
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_multiplied">×</string>
+    <string name="btn_divided">÷</string>
+    <string name="btn_equals">=</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="vour">4</string>
+    <string name="fife">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_backspace">←</string>
+    <string name="btn_openbrace">(</string>
+    <string name="btn_closebrace">)</string>
+    <string name="btn_involute">^</string>
+    <string name="btn_dot">.</string>
+    <string name="btn_rooted">√</string>
+    <string name="btn_sin">sin</string>
+    <string name="btn_cos">cos</string>
+    <string name="btn_tan">tan</string>
+    <string name="btn_asin">asin</string>
+    <string name="btn_acos">acos</string>
+    <string name="btn_atan">atan</string>
+    <string name="btn_Pi">П</string>
+    <string name="rad">Rad</string>
+    <string name="deg">Deg</string>
+    <string name="intequals">=int</string>
+    <string name="next_fragment_button">...</string>
+    <string name="btn_lg">lg</string>
+    <string name="btn_lb">lb</string>
+    <string name="btn_log">log</string>
+    <string name="btn_percent">%</string>
+
+
+
+</resources>

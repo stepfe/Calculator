@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_sin"
+        android:id="@+id/btnSin"
+        />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_cos"
+        android:id="@+id/btnCos"
+        android:layout_below="@id/btnDot"
+        android:layout_toRightOf="@id/btnSin"
+        />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_tan"
+        android:id="@+id/btnTan"
+        android:layout_below="@id/btnDot"
+        android:layout_toRightOf="@id/btnCos"
+        />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_asin"
+        android:id="@+id/btnAsin"
+        android:layout_below="@id/btnSin"
+        />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_acos"
+        android:id="@+id/btnAcos"
+        android:layout_below="@id/btnCos"
+        android:layout_toRightOf="@id/btnAsin"
+        />
+
+    <Button
+        android:onClick="OnSpecialSymbolButtonClick"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_atan"
+        android:id="@+id/btnAtan"
+        android:layout_below="@id/btnTan"
+        android:layout_toRightOf="@id/btnAcos"
+        />
+    <Button
+        android:id="@+id/btnLg"
+        android:text="@string/btn_lg"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnAsin"
+        android:layout_alignLeft="@+id/btnAsin"
+        android:layout_alignStart="@+id/btnAsin"
+        />
+    <Button
+        android:id="@+id/btnRadDeg"
+        android:text="@string/rad"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/btnNext"
+        android:layout_toRightOf="@+id/btnAtan"
+        android:layout_toEndOf="@+id/btnAtan"
+        />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:text="@string/next_fragment_button"
+        android:id="@+id/btnNext"
+        android:layout_below="@+id/btnAtan"
+        android:layout_toRightOf="@+id/btnAtan"
+        android:layout_toEndOf="@+id/btnAtan"
+        />
+
+    <Button
+        android:id="@+id/btnBackspace"
+        android:text="@string/btn_backspace"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/btnPercent"
+        android:layout_toRightOf="@+id/btnRadDeg"
+        android:layout_toEndOf="@+id/btnRadDeg"/>
+
+    <Button
+        android:id="@+id/btnLb"
+        android:text="@string/btn_lb"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnAtan"
+        android:layout_toLeftOf="@+id/btnNext"
+        android:layout_toStartOf="@+id/btnNext"
+        />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:text="@string/btn_log"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnAcos"
+        android:layout_toLeftOf="@+id/btnAtan"
+        android:layout_toStartOf="@+id/btnAtan"
+        />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_percent"
+        android:id="@+id/btnPercent"
+        android:layout_above="@+id/btnRadDeg"
+        android:layout_toLeftOf="@+id/btnBackspace"
+        android:layout_toStartOf="@+id/btnBackspace"/>
+
+</RelativeLayout>

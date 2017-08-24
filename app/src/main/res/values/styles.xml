@@ -1,0 +1,170 @@
+<resources>
+
+    <style name="DarkTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#ffa600</item>
+        <item name="colorAccent">#ffa600</item>
+        <item name="android:actionBarSize">40dp</item>
+        <item name="android:background">#000</item>
+        <item name="titleTextColor">#ffa600</item>
+        <item name="actionBarPopupTheme">@style/PopupMenuDarkTheme</item>
+        <item name="android:statusBarColor">#ffa600</item>
+        <item name="buttonStyle">@style/ButtonDarkTheme</item>
+        <item name="editTextStyle">@style/EditViewDarkTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogDarkTheme</item>
+        <item name="android:textSize">25dp</item>
+        <item name="checkboxStyle">@style/CheckBoxDarkTheme</item>
+        <item name="radioButtonStyle">@style/RadioButtonDarkTheme</item>
+        <item name="android:textColorSecondary">#ffa600</item>
+    </style>
+
+    <style name="AlertDialogDarkTheme" parent="@android:style/Theme.Dialog">
+        <item name="colorAccent">#ffa600</item>
+        <item name="android:textColor">#ffa600</item>
+        <item name="android:background">#000</item>
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#ffa600</item>
+        <item name="textColorAlertDialogListItem">#ffa600</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/dark_radiobutton_selector</item>
+        <item name="android:textColorPrimary">#ffa600</item>
+    </style>
+
+    <style name="CheckBoxDarkTheme" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/dark_radiobutton_selector</item>
+    </style>
+
+    <style name="RadioButtonDarkTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/dark_radiobutton_selector</item>
+    </style>
+
+    <style name="PopupMenuDarkTheme" parent="android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">#000</item>
+        <item name="android:listSelector">#ffa600</item>
+        <item name="android:textColor">#ffa600</item>
+    </style>
+
+    <style name="ButtonDarkTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">#000</item>
+        <item name="android:textColor">#ffa600</item>
+        <item name="android:textColorHint">#ffa600</item>
+    </style>
+
+    <style name="EditViewDarkTheme" parent="Widget.AppCompat.EditText">
+        <item name="android:background">#333</item>
+        <item name="android:textColor">#ffa600</item>
+        <item name="android:textColorHint">#ffa600</item>
+    </style>
+
+    <style name="LightTheme" parent="Theme.AppCompat">
+
+        <item name="colorPrimary">#2bba00</item>
+        <item name="colorPrimaryDark">#2bba00</item>
+        <item name="colorAccent">#2bba00</item>
+        <item name="android:actionBarSize">40dp</item>
+        <item name="android:background">#fff</item>
+        <item name="titleTextColor">#2bba00</item>
+        <item name="android:statusBarColor">#2bba00</item>
+        <item name="buttonStyle">@style/ButtonLightTheme</item>
+        <item name="editTextStyle">@style/EditTextLightTheme</item>
+        <item name="actionBarPopupTheme">@style/PopupMenuLightTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogLightTheme</item>
+        <item name="android:textSize">25dp</item>
+        <item name="checkboxStyle">@style/CheckBoxLightTheme</item>
+        <item name="radioButtonStyle">@style/RadioButtonLightTheme</item>
+        <item name="android:textColorSecondary">#2bba00</item>
+    </style>
+
+    <style name="AlertDialogLightTheme" parent="@android:style/Theme.Dialog">
+        <item name="colorAccent">#2bba00</item>
+        <item name="android:textColor">#2bba00</item>
+        <item name="android:background">#fff</item>
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#2bba00</item>
+        <item name="textColorAlertDialogListItem">#2bba00</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/light_radiobutton_selector</item>
+        <item name="android:textColorPrimary">#2bba00</item>
+    </style>
+
+    <style name="PopupMenuLightTheme" parent="android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">#fff</item>
+        <item name="android:listSelector">#2bba00</item>
+        <item name="android:textColor">#2bba00</item>
+    </style>
+
+    <style name="EditTextLightTheme" parent="Widget.AppCompat.EditText">
+        <item name="android:background">#eee</item>
+        <item name="android:textColor">#2bba00</item>
+        <item name="android:textColorHint">#2bba00</item>
+    </style>
+
+    <style name="ButtonLightTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">#fff</item>
+        <item name="android:textColor">#2bba00</item>
+        <item name="android:textColorHint">#2bba00</item>
+    </style>
+
+    <style name="CheckBoxLightTheme" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/light_radiobutton_selector</item>
+    </style>
+
+    <style name="RadioButtonLightTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/light_radiobutton_selector</item>
+    </style>
+
+    <style name="BlackAndWhiteTheme" parent="Theme.AppCompat">
+
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">#000</item>
+        <item name="android:actionBarSize">40dp</item>
+        <item name="android:background">#fff</item>
+        <item name="titleTextColor">#000</item>
+        <item name="android:statusBarColor">#000</item>
+        <item name="buttonStyle">@style/ButtonBlackAndWhiteTheme</item>
+        <item name="editTextStyle">@style/EditTextBlackAndWhiteTheme</item>
+        <item name="actionBarPopupTheme">@style/PopupMenuBlackAndWhiteTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogBlackAndWhiteTheme</item>
+        <item name="android:textSize">25dp</item>
+        <item name="checkboxStyle">@style/CheckBoxBlackAndWhiteTheme</item>
+        <item name="radioButtonStyle">@style/RadioButtonBlackAndWhiteTheme</item>
+        <item name="android:textColorSecondary">#000</item>
+    </style>
+
+    <style name="AlertDialogBlackAndWhiteTheme" parent="@android:style/Theme.Dialog">
+        <item name="colorAccent">#000</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:background">#fff</item>
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="textColorAlertDialogListItem">#000</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/black_and_white_radiobutton_selector</item>
+        <item name="android:textColorPrimary">#000</item>
+    </style>
+
+    <style name="PopupMenuBlackAndWhiteTheme" parent="android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">#fff</item>
+        <item name="android:listSelector">#000</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="EditTextBlackAndWhiteTheme" parent="Widget.AppCompat.EditText">
+        <item name="android:background">#eee</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textColorHint">#000</item>
+    </style>
+
+    <style name="ButtonBlackAndWhiteTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">#fff</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textColorHint">#000</item>
+    </style>
+
+    <style name="CheckBoxBlackAndWhiteTheme" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/black_and_white_radiobutton_selector</item>
+    </style>
+
+    <style name="RadioButtonBlackAndWhiteTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/black_and_white_radiobutton_selector</item>
+    </style>
+
+</resources>
